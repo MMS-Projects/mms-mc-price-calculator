@@ -11,5 +11,6 @@ class Paper
     public $recipe      = array(
         'PC\Items\Materials\SugerCanes' => 3,
     );
+    public $recipeAmount = 3;
 
 }

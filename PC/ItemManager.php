@@ -57,7 +57,7 @@ class ItemManager
     
     public function calculatePrice($item)
     {
-        echo 'Calculating price of ' . $item . PHP_EOL;
+        
         $item = $this->items[$item];
         $price = 0;
         if (isset($item->basePrice)) {
@@ -70,16 +70,22 @@ class ItemManager
                     $ingredientPrice = $this->calculatePrice($ingredient);
                 }
                 $ingredientPrice *= $amount;
+                //echo 'Ingre ' . $ingredient . ' = ' . $ingredientPrice . PHP_EOL;
                 $price += $ingredientPrice;
             }
         }
+        if (isset($item->recipeAmount)) {
+            $price /= $item->recipeAmount;
+        }
         $this->prices[get_class($item)] = $price;
-        echo 'Price of ' . get_class($item) . ' is ' . $price . PHP_EOL;
+        echo 'Price of ' . $item->name . ' is ' . $price . PHP_EOL;
+        return $price;
     }
     
     public function getPrice($item)
     {
         $class = ((is_object($item)) ? get_class($item) : $item);
+
         return (isset($this->prices[$class])) ? $this->prices[$class] : false;
     }
 
