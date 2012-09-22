@@ -10,9 +10,11 @@ class ItemManager
 
     public function addItem($item)
     {
+        echo 'Adding item ' . get_class($item) . PHP_EOL;
         $this->items[$item->itemId . ':' . $item->damageValue] = $item;
         //var_dump($this->items);
         $this->prices = $this->calc($item->itemId . ':' . $item->damageValue);
+        echo '-------------------------------------' . PHP_EOL;
     }
     
     public function calc($item) 
@@ -27,6 +29,10 @@ class ItemManager
         }
         if (isset($item->recipe)) {
             foreach ($item->recipe as $ingredient => $amount) {
+                if (class_exists($ingredient)) {
+                    $ingredient = new $ingredient;
+                    $ingredient = $ingredient->itemId . ':' . $ingredient->damageValue;
+                }
                 $ingredientPrice = $this->calc($ingredient);
                 //echo 'Item has ingredient ' . $ingredient . ' with price ' . $ingredientPrice . PHP_EOL;
                 $ingredientPrice *= $amount;

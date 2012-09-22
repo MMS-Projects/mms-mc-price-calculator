@@ -1,6 +1,6 @@
 <?php
 
-namespace PC\Items;
+namespace PC\Items\Decoration;
 
 class Furnace
 {
@@ -9,7 +9,7 @@ class Furnace
     public $itemId = 61;
     public $damageValue = 0;
     public $recipe = array(
-        '4:0' => 8
+        '\PC\Items\BuildingBlocks\Cobblestone' => 8
     );
 
 }

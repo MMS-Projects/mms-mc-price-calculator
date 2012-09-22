@@ -1,6 +1,6 @@
 <?php
 
-namespace PC\Items;
+namespace PC\Items\Materials;
 
 class Stick
 {
@@ -9,7 +9,7 @@ class Stick
     public $itemId = 280;
     public $damageValue = 0;
     public $recipe = array(
-        '5:0' => 2
+        '\PC\Items\BuildingBlocks\OakWoodPlanks' => 2
     );
     public $recipeAmount = 4;
 

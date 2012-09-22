@@ -9,7 +9,10 @@ class Cake
     public $itemId = 354;
     public $damageValue = 0;
     public $recipe = array(
-        '296:0' => 3, '353:0' => 2, '344:0' => 1, '335:0' => 3
+        '\PC\Items\Food\Milk'       => 3,
+        '\PC\Items\Materials\Suger' => 2,
+        '\PC\Items\Materials\Egg'   => 1,
+        '\PC\Items\Materials\Wheat' => 3,
     );
 
 }

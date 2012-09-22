@@ -1,6 +1,6 @@
 <?php
 
-namespace PC\Items;
+namespace PC\Items\BuildingBlocks;
 
 class OakWood
 {

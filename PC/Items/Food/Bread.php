@@ -1,6 +1,6 @@
 <?php
 
-namespace PC\Items;
+namespace PC\Items\Food;
 
 class Bread
 {
@@ -9,7 +9,7 @@ class Bread
     public $itemId = 297;
     public $damageValue = 0;
     public $recipe = array(
-        '296:0' => 3
+        '\PC\Items\Materials\Wheat' => 3
     );
 
 }
