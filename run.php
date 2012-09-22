@@ -13,13 +13,6 @@ spl_autoload_register(function ($classname) {
 
 $items = new PC\ItemManager;
 
-$items->addItem(new PC\Items\BuildingBlocks\Cobblestone);
-$items->addItem(new PC\Items\BuildingBlocks\Obsidian);
-$items->addItem(new PC\Items\BuildingBlocks\OakWood);
-$items->addItem(new PC\Items\BuildingBlocks\OakWoodPlanks);
-$items->addItem(new PC\Items\BuildingBlocks\Wool);
-
-$items->addItem(new PC\Items\Materials\Stick);
 $items->addItem(new PC\Items\Materials\Diamond);
 $items->addItem(new PC\Items\Materials\Egg);
 $items->addItem(new PC\Items\Materials\SugerCanes);
@@ -27,6 +20,15 @@ $items->addItem(new PC\Items\Materials\Leather);
 $items->addItem(new PC\Items\Materials\Suger);
 $items->addItem(new PC\Items\Materials\Wheat);
 $items->addItem(new PC\Items\Materials\IronIngot);
+$items->addItem(new PC\Items\Materials\String);
+
+$items->addItem(new PC\Items\BuildingBlocks\Cobblestone);
+$items->addItem(new PC\Items\BuildingBlocks\Obsidian);
+$items->addItem(new PC\Items\BuildingBlocks\OakWood);
+$items->addItem(new PC\Items\BuildingBlocks\OakWoodPlanks);
+$items->addItem(new PC\Items\BuildingBlocks\Wool);
+
+$items->addItem(new PC\Items\Materials\Stick);
 
 $items->addItem(new PC\Items\Misc\Paper);
 
