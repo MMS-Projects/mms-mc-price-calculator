@@ -9,7 +9,7 @@ class Furnace
     public $itemId = 61;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\BuildingBlocks\Cobblestone' => 8
+        'PC\Items\BuildingBlocks\Cobblestone' => 8
     );
 
 }

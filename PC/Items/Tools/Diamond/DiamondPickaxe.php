@@ -9,7 +9,7 @@ class DiamondPickaxe
     public $itemId = 278;
     public $damageValue = 0;
     public $recipe = array(
-        '280:0' => 2, '264:0' => 3  
+        'PC\Items\Materials\Stick' => 2, 'PC\Items\Materials\Diamond' => 3  
     );
 
 }

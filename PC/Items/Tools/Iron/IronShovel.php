@@ -9,7 +9,7 @@ class IronShovel
     public $itemId = 256;
     public $damageValue = 0;
     public $recipe = array(
-        '280:0' => 2, '265:0' => 1  
+        'PC\Items\Materials\Stick' => 2, 'PC\Items\Materials\IronIngot' => 1  
     );
 
 }

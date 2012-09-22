@@ -9,7 +9,7 @@ class Stick
     public $itemId = 280;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\BuildingBlocks\OakWoodPlanks' => 2
+        'PC\Items\BuildingBlocks\OakWoodPlanks' => 2
     );
     public $recipeAmount = 4;
 

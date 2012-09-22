@@ -55,3 +55,7 @@ $items->addItem(new PC\Items\Tools\Bucket);
 $items->addItem(new PC\Items\Food\Milk);
 $items->addItem(new PC\Items\Food\Cake);
 $items->addItem(new PC\Items\Food\Bread);
+
+$items->calculate();
+
+var_dump($items->getPrice(new PC\Items\Food\Bread));

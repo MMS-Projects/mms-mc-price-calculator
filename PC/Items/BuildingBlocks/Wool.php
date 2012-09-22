@@ -9,7 +9,7 @@ class Wool
     public $itemId = 35;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\Materials\String' => 4,
+        'PC\Items\Materials\String' => 4,
     );
 
 }

@@ -9,7 +9,7 @@ class Paper
     public $itemId = 339;
     public $damageValue = 0;
     public $recipe      = array(
-        '\PC\Items\Materials\SugerCanes' => 3,
+        'PC\Items\Materials\SugerCanes' => 3,
     );
 
 }

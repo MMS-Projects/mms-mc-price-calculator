@@ -9,7 +9,7 @@ class IronAxe
     public $itemId = 258;
     public $damageValue = 0;
     public $recipe = array(
-        '280:0' => 2, '265:0' => 3  
+        'PC\Items\Materials\Stick' => 2, 'PC\Items\Materials\IronIngot' => 3  
     );
 
 }

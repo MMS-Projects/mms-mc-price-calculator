@@ -9,7 +9,7 @@ class DiamondShovel
     public $itemId = 277;
     public $damageValue = 0;
     public $recipe = array(
-        '280:0' => 2, '264:0' => 1  
+        'PC\Items\Materials\Stick' => 2, 'PC\Items\Materials\Diamond' => 1  
     );
 
 }

@@ -9,7 +9,7 @@ class Bread
     public $itemId = 297;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\Materials\Wheat' => 3
+        'PC\Items\Materials\Wheat' => 3
     );
 
 }

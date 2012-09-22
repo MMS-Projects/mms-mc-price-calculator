@@ -9,7 +9,7 @@ class OakWoodPlanks
     public $itemId = 5;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\BuildingBlocks\OakWood' => 1
+        'PC\Items\BuildingBlocks\OakWood' => 1
     );
     public $recipeAmount = 4;
 

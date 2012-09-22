@@ -9,7 +9,7 @@ class Suger
     public $itemId      = 353;
     public $damageValue = 0;
     public $recipe      = array(
-        '\PC\Items\Materials\SugerCanes' => 1,
+        'PC\Items\Materials\SugerCanes' => 1,
     );
 
 }

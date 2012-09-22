@@ -9,8 +9,8 @@ class WoodenAxe
     public $itemId = 271;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\Materials\Stick'              => 2,
-        '\PC\Items\BuildingBlocks\OakWoodPlanks' => 3  
+        'PC\Items\Materials\Stick'              => 2,
+        'PC\Items\BuildingBlocks\OakWoodPlanks' => 3  
     );
 
 }

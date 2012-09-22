@@ -9,7 +9,7 @@ class IronHoe
     public $itemId = 292;
     public $damageValue = 0;
     public $recipe = array(
-        '280:0' => 2, '265:0' => 2
+        'PC\Items\Materials\Stick' => 2, 'PC\Items\Materials\IronIngot' => 2
     );
 
 }

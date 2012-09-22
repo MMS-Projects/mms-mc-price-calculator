@@ -9,7 +9,7 @@ class Bucket
     public $itemId = 325;
     public $damageValue = 0;
     public $recipe = array(
-        '265:0' => 3
+        'PC\Items\Materials\IronIngot' => 3
     );
 
 }

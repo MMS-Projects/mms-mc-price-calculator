@@ -9,9 +9,9 @@ class EnchantmentTable
     public $itemId = 116;
     public $damageValue = 0;
     public $recipe = array(
-        '\PC\Items\Book'                    => 1,
-        '\PC\Items\Materials\Diamond'        => 2,
-        '\PC\Items\BuildingBlocks\Obsidian' => 3,
+        'PC\Items\Book'                    => 1,
+        'PC\Items\Materials\Diamond'        => 2,
+        'PC\Items\BuildingBlocks\Obsidian' => 3,
     );
     public $recipeAmount = 1;
 
