@@ -8,5 +8,5 @@ class Redstone
     public $name = 'Redstone';
     public $itemId = 331;
     public $damageValue = 0;
-    public $basePrice = 1;
+    public $basePrice = 2;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace PC\Items\Tools\Diamond;
+namespace PC\Items\Tools\Iron;
 
 class IronHoe
 {

@@ -29,6 +29,7 @@ $items->addItem(new PC\Items\BuildingBlocks\OakWood);
 $items->addItem(new PC\Items\BuildingBlocks\OakWoodPlanks);
 $items->addItem(new PC\Items\BuildingBlocks\Wool);
 $items->addItem(new PC\Items\BuildingBlocks\Stone);
+$items->addItem(new PC\Items\BuildingBlocks\Glass);
 
 $items->addItem(new PC\Items\Misc\Paper);
 
@@ -40,12 +41,17 @@ $items->addItem(new PC\Items\Decoration\Bed);
 $items->addItem(new PC\Items\Decoration\Sign);
 $items->addItem(new PC\Items\Decoration\Jukebox);
 $items->addItem(new PC\Items\Decoration\Bookshelf);
+$items->addItem(new PC\Items\Decoration\GlassPane);
 $items->addItem(new PC\Items\Decoration\Stairs\OakWoodStairs);
 
 $items->addItem(new PC\Items\Tools\Diamond\DiamondPickaxe);
 $items->addItem(new PC\Items\Tools\Diamond\DiamondAxe);
 $items->addItem(new PC\Items\Tools\Diamond\DiamondShovel);
 $items->addItem(new PC\Items\Tools\Diamond\DiamondHoe);
+$items->addItem(new PC\Items\Tools\Iron\IronPickaxe);
+$items->addItem(new PC\Items\Tools\Iron\IronAxe);
+$items->addItem(new PC\Items\Tools\Iron\IronShovel);
+$items->addItem(new PC\Items\Tools\Iron\IronHoe);
 $items->addItem(new PC\Items\Tools\Wood\WoodenPickaxe);
 $items->addItem(new PC\Items\Tools\Wood\WoodenAxe);
 $items->addItem(new PC\Items\Tools\Wood\WoodenShovel);

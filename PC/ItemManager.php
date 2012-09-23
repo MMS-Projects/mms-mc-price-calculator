@@ -73,6 +73,7 @@ class ItemManager
                 //echo 'Ingre ' . $ingredient . ' = ' . $ingredientPrice . PHP_EOL;
                 $price += $ingredientPrice;
             }
+            $price += $price / 100 * 5;
         }
         if (isset($item->recipeAmount)) {
             $price /= $item->recipeAmount;
